@@ -1949,7 +1949,7 @@
 	/* Header */
   
 	  #header {
-		-moz-backface-visibility: hidden;
+		/* -moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
 		backface-visibility: hidden;
@@ -1961,7 +1961,7 @@
 		-webkit-transition: -webkit-transform 0.5s ease;
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
-		-webkit-overflow-scrolling: touch;
+		-webkit-overflow-scrolling: touch; */
 		display: inline-block;
 		height: 100%;
 		left: 0;
@@ -2014,7 +2014,7 @@
 	  }
   
 		#headerToggle .toggle {
-		  position: absolute;
+		  position: fixed;
 		  left: 0;
 		  top: 0;
 		  width: 100%;
